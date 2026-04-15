@@ -25,6 +25,15 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-04-15] setup | Personal second brain vault scaffold
+- Type: initial setup
+- Mode: D (Personal Second Brain)
+- Location: D:\77_wiki (/mnt/d/77_wiki)
+- MCP: configured (filesystem via @bitbonsai/mcpvault)
+- Structure: all folders created, domain indexes ready
+- Pages created: overview updated for personal use case, hot cache initialized
+- Next: waiting for first source ingest
+
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session
 - Location: wiki/meta/claude-obsidian-v1.4-release-session.md

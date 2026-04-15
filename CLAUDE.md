@@ -1,31 +1,45 @@
-# claude-obsidian — Claude + Obsidian Wiki Vault
+# Personal Second Brain — Claude + Obsidian LLM Wiki Vault
 
-This folder is both a Claude Code plugin and an Obsidian vault.
+This is a personal knowledge base (second brain) built with claude-obsidian on the LLM Wiki pattern.
 
-**Plugin name:** `claude-obsidian`
-**Skills:** `/wiki`, `/wiki-ingest`, `/wiki-query`, `/wiki-lint`
-**Vault path:** This directory (open in Obsidian directly)
+**Mode:** D (Personal Second Brain)
+**Purpose:** Persistent, compounding personal knowledge base that accumulates everything learned.
+**Location:** D:\77_wiki / /mnt/d/77_wiki
+**Created:** 2026-04-15
 
-## What This Vault Is For
+## What This Wiki Is For
 
-This vault demonstrates the LLM Wiki pattern — a persistent, compounding knowledge base for Claude + Obsidian. Drop any source, ask any question, and the wiki grows richer with every session.
+Every source you add gets read, summarized, cross-referenced, and filed into the structure. Every question you ask pulls relevant pages from the wiki and synthesizes an answer with citations. Knowledge compounds over time.
 
-## Vault Structure
+## Structure
 
 ```
-.raw/           source documents — immutable, Claude reads but never modifies
-wiki/           Claude-generated knowledge base
-_templates/     Obsidian Templater templates
-_attachments/   images and PDFs referenced by wiki pages
+wiki/
+├── goals/         → Personal and professional goals with progress tracking
+├── learning/      → Concepts and frameworks being mastered
+├── people/        → Important people and relationships
+├── areas/         → Major life areas: health, career, finances, relationships, growth
+├── resources/     → Books, courses, tools, references
+├── entities/      → Organizations, products, projects, places mentioned in sources
+├── concepts/      → Ideas, patterns, frameworks, mental models
+├── sources/       → Summary page for each ingested source
+├── questions/     → Filed answers to questions asked
+├── meta/          → Dashboards, lint reports
+├── index.md       → Master catalog of everything in the wiki
+├── log.md         → Append-only operation log
+├── hot.md         → Hot cache: recent context summary (~500 words)
+└── overview.md    → Executive overview of the entire wiki
+
+.raw/              → Source documents (immutable, Claude reads but never modifies)
+_attachments/      → Images, PDFs, and attachments referenced by wiki pages
+_templates/        → Obsidian Templater templates for each note type
 ```
 
 ## How to Use
 
-Drop a source file into `.raw/`, then tell Claude: "ingest [filename]".
+Drop a source file into `.raw/`, then say: "ingest [filename]".
 
-Ask any question. Claude reads the index first, then drills into relevant pages.
-
-Run `/wiki` to scaffold a new vault or check setup status.
+Ask any question. Claude reads `wiki/hot.md` → `wiki/index.md` → relevant pages → synthesizes answer with citations.
 
 Run "lint the wiki" every 10-15 ingests to catch orphans and gaps.
 
