@@ -8,40 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1ddf905423a8598d",
+            "id": "d30e5136274180c3",
             "type": "leaf",
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "thino_view"
+              "icon": "Memos",
+              "title": "Thino"
             }
           },
           {
-            "id": "61749825e48e4b66",
+            "id": "9fa9b4f915e82164",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "wiki/Wiki Map.canvas",
-                "viewState": {
-                  "x": -413.9875924804161,
-                  "y": 621.2439739591268,
-                  "zoom": -1.292836204863978
-                }
+                "file": "WIKI.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Wiki Map"
+              "icon": "lucide-file",
+              "title": "WIKI"
+            }
+          },
+          {
+            "id": "1f869c20a53e57a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/vllm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vllm"
             }
           }
         ],
@@ -215,28 +216,40 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-memos:Thino": false,
       "obsidian-memos:Thino Super": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "61749825e48e4b66",
+  "active": "1f869c20a53e57a8",
   "lastOpenFiles": [
-    "CLAUDE.md.tmp.806441.1776246048351",
-    "wiki/log.md.tmp.806441.1776246001466",
-    "wiki/hot.md.tmp.806441.1776245995239",
-    "wiki/overview.md.tmp.806441.1776245984585",
-    "wiki/overview.md.tmp.806441.1776245949306",
+    "wiki/hot.md",
+    "wiki/log.md.tmp.806441.1776246754332",
+    "wiki/hot.md.tmp.806441.1776246743558",
+    "wiki/index.md",
+    "wiki/index.md.tmp.806441.1776246729949",
+    "WIKI.md",
+    "wiki/index.md.tmp.806441.1776246721486",
+    "_templates/source.md",
+    "wiki/index.md.tmp.806441.1776246717840",
+    "未命名.base",
+    "wiki/index.md.tmp.806441.1776246707347",
+    "未命名.canvas",
+    "wiki/entities/ascend-npu.md",
+    "wiki/entities/ascend-npu.md.tmp.806441.1776246690425",
+    "wiki/entities/vllm-ascend.md",
+    "wiki/entities/vllm-ascend.md.tmp.806441.1776246690341",
+    "wiki/entities/vllm.md",
+    "wiki/entities/vllm.md.tmp.806441.1776246690276",
+    "wiki/concepts/cuda-graph.md",
+    "wiki/concepts/cudagraph-mode.md",
+    "wiki/Wiki Map.canvas",
+    "wiki/sources/vllm-ascend-cudagraph-modes.md",
     "wiki/questions/_index.md",
-    "wiki/questions/_index.md.tmp.806441.1776245906690",
     "wiki/resources/_index.md",
-    "wiki/resources/_index.md.tmp.806441.1776245904786",
     "wiki/areas/_index.md",
-    "wiki/areas/_index.md.tmp.806441.1776245903872",
     "wiki/people/_index.md",
-    "wiki/people/_index.md.tmp.806441.1776245902201",
     "wiki/learning/_index.md",
-    "wiki/learning/_index.md.tmp.806441.1776245900988",
     "wiki/goals/_index.md",
-    "wiki/goals/_index.md.tmp.806441.1776245892961",
     "wiki/meta/claude-obsidian-cover.gif",
     "wiki/meta/image-example-wiki-map-view.png",
     "wiki/meta/image-example-graph-view.png",
@@ -257,19 +270,9 @@
     "wiki/getting-started.md",
     "Demo Images.canvas",
     "Excalidraw/Drawing 2026-04-07 14.07.42.excalidraw.md",
-    "wiki/concepts/LLM Wiki Pattern.md",
-    "Obsidian vault with Claude Code - full integration and visual organization 2.md",
-    "Excalidraw/Drawing 2026-04-07 14.07.42_0.excalidraw.md",
     "_attachments/the-frontier.png",
     "_attachments/neural-voyager.png",
     "_attachments/code-genesis.png",
-    "wiki/concepts/Hot Cache.md",
-    "wiki/concepts/Compounding Knowledge.md",
-    "wiki/entities/_index.md",
-    "wiki/entities/Andrej Karpathy.md",
-    "wiki/questions/How does the LLM Wiki pattern work.md",
-    "wiki/hot.md",
-    "wiki/Wiki Map.canvas",
     "Banana Images.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

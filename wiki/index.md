@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-08 | Total pages: 26 | Sources ingested: 2
+Last updated: 2026-04-15 | Total pages: 32 | Sources ingested: 3
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -35,6 +35,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Hot Cache]] — ~500-word session context file, updated after every ingest and session (status: mature)
 - [[Compounding Knowledge]] — why wiki knowledge grows more valuable over time, unlike RAG (status: mature)
 - [[cherry-picks]] — prioritized feature backlog from ecosystem research; 13 features to add to claude-obsidian (status: current)
+- [[CUDA Graph]] — CUDA feature for pre-capturing kernel sequences to reduce launch overhead (status: mature)
+- [[CUDAGraphMode]] — vLLM enumeration for CUDA Graph capture modes (status: mature)
 
 ---
 
@@ -47,12 +49,16 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[rvk7895-llm-knowledge-bases]] — 3-depth query system, Marp slides, parallel deep research (status: current)
 - [[kepano-obsidian-skills]] — official skills from Obsidian creator; defuddle, obsidian-bases (status: current)
 - [[Claudian-YishenTu]] — native Obsidian plugin embedding Claude Code; plan mode, @mention (status: current)
+- [[vLLM]] — high-throughput LLM inference and serving engine (status: developing)
+- [[vLLM-Ascend]] — vLLM port to Ascend NPUs (status: developing)
+- [[Ascend NPU]] — Huawei AI accelerator architecture (status: developing)
 
 ---
 
 ## Sources
 
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
+- [[vllm-ascend-cudagraph-modes]] — 2026-04-15 | Technical summary of CUDAGraph mode support in vLLM-Ascend
 
 ---
 
@@ -71,4 +77,6 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ## Domains
 
-<!-- Add domain entries here after scaffold -->
+- **AI Infrastructure (ai-infra)** — LLM inference engines, compilers, hardware optimization
+  - Concepts: [[CUDA Graph]], [[CUDAGraphMode]]
+  - Entities: [[vLLM]], [[vLLM-Ascend]], [[Ascend NPU]]

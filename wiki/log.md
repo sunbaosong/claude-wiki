@@ -25,6 +25,14 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-04-15] ingest | vLLM-Ascend CUDAGraph Modes Support Summary
+- Source: `.raw/vllm-ascend-cudagraph-modes.md`
+- Summary: [[vllm-ascend-cudagraph-modes]]
+- Pages created: [[CUDA Graph]], [[CUDAGraphMode]], [[vLLM]], [[vLLM-Ascend]], [[Ascend NPU]]
+- Pages updated: [[index]], [[hot]], [[log]]
+- Domain added: AI Infrastructure (ai-infra)
+- Key insight: Documented current support matrix and forced coercion rules for CUDAGraph modes in vLLM-Ascend. FULL_AND_PIECEWISE falls back to PIECEWISE until full implementation is complete.
+
 ## [2026-04-15] setup | Personal second brain vault scaffold
 - Type: initial setup
 - Mode: D (Personal Second Brain)
